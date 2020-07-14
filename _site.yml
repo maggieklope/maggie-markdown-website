@@ -1,0 +1,26 @@
+name: "my-website"
+output_dir: "docs"
+navbar:
+  title: "My Website"
+  #type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home #using font awesome icons
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: test.html
+      menu:
+        - text: "Functional Diveristy"
+          href: functional-diversity.html
+  right:
+    - icon: fa-github
+      href: https://github.com/maggieklope
+    - icon: fa-linkedin-square
+      href: https://www.linkedin.com/in/maggie-klope-2ab01770/
+output:
+  html_document:
+    theme: journal
+    #include:
+      #after_body: my_footer.Rhtml
